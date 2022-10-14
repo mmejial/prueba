@@ -4,7 +4,7 @@ function Title(props){
     return (
         <>
         <h1> {props.name} {props.firstNamr}</h1>
-        <h2>{props.number}</h2>
+        <p>{props.number}</p>
         </>
     )
 
@@ -13,7 +13,7 @@ function Title(props){
 export default Title;
 Title.propTypes ={
     name: PropTypes.string.isRequired,
-    numer: PropTypes.number
+    number: PropTypes.number
 
 }
 Title.defaultProps ={

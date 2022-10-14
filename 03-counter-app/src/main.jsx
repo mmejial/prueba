@@ -7,7 +7,7 @@ import './assets/main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <App/>
+        <App/> 
         <FirstApp/>
     </React.StrictMode>
 )
