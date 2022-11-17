@@ -27,7 +27,7 @@ return(
     />
     {/* button */}
     
-    <ol>
+
         {categories.map((category) =>
            (<GifGrid 
            key={category} 
@@ -35,7 +35,7 @@ return(
            />)
         )}
         
-    </ol>
+    
     </>
 )
 }
