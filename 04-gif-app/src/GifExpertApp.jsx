@@ -7,7 +7,7 @@ const APIKEY = 'Jg0QrUujBDj563TGACcaQExpSo2I8Mqh';
 const APIURL = 'http://api.giphy.com/v1/gifs/random'
 
 export const GifExpertApp=()=>{
-const [categories, setCategories]=useState(['One Pounch','paquito'])
+const [categories, setCategories]=useState(['One Pounch'])
 
 const onAddCategory =(newCategory)=>{
     if(categories.includes(newCategory))return;
