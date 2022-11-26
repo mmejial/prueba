@@ -19,7 +19,7 @@ const onAddCategory =(newCategory)=>{
 
 return(
     <>
-    <h1>nose</h1>
+    <h1>Gif Expert App</h1>
     {/* input */}
     <AddCategory 
     /* setCategories={setCategories} */
