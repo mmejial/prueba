@@ -2,9 +2,7 @@ import { useState } from "react";
 import {AddCategory} from './components/AddCategory'
 import { GifGrid } from "./components/GifGrid";
 
-const APIKEY = 'Jg0QrUujBDj563TGACcaQExpSo2I8Mqh';
 
-const APIURL = 'http://api.giphy.com/v1/gifs/random'
 
 export const GifExpertApp=()=>{
 const [categories, setCategories]=useState(['One Pounch'])
