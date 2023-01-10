@@ -4,13 +4,17 @@ import ReactDOM from 'react-dom/client';
 import {CounterCustrom} from './01-useSate/CounterCustrom'
 import { SimpleForm } from './02-useEfect/SImpleForm';
 import { HookApp } from './assets/HookApp';
+import { OtherForm } from './02-useEfect/OtherForm';
+import {MultipleCustomHooks} from './03-examples/MultipleCustomHooks'
+
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     {/* <HookApp/> */}
     {/* <CounterCustrom/> */}
     {/* <CounterApp/> */}
-    <SimpleForm/>
-  </React.StrictMode>
+    {/* <OtherForm/> */}
+    <MultipleCustomHooks/>
+    </>
 )
