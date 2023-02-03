@@ -15,10 +15,24 @@ export const useCounter=(initialValue=10)=>{
     const reset = ()=>{
         setCounter(initialValue)
     }
+    const setTarget=(value)=>{
+        /* setCounter(counter) */
+        /* console.log(value) */
+        /* setCounter(counter + value) */
+        const datos = parseInt(value)
+       /*  console.log(typeof(datos))
+        console.log(typeof(counter)) */
+         setCounter( datos)
+        
+        
+        
+
+    }
     return{
         counter,
         increment,
         decrement,
-        reset    
+        reset,
+        setTarget    
         }
 }
