@@ -9,7 +9,7 @@ const initialState=[
     {
         
             id:new Date().getTime()*3,
-            description:'comer naranja',
+            description:'comer gelatina',
             done:false
         
     }
